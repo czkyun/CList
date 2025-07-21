@@ -166,7 +166,7 @@ func (d *Pan123) login() error {
 			"user-agent":  "123pan/v2.5.11(Android_7.1.2;Xiaomi)",
 			"platform":    "android",
 			"app-version": "61",
-			"x-app-version": "2.5.11"
+			"x-app-version": "2.5.11",
 			//"user-agent":  base.UserAgent,
 		}).
 		SetBody(body).Post(SignIn)
@@ -206,7 +206,7 @@ do:
 		"user-agent":    "123pan/v2.5.11(Android_7.1.2;Xiaomi)",
 		"platform":      "android",
 		"app-version":   "61",
-		"x-app-version": "2.5.11"
+		"x-app-version": "2.5.11",
 		//"user-agent":    base.UserAgent,
 	})
 	if callback != nil {
